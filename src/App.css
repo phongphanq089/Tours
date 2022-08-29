@@ -1,0 +1,85 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+.Loading{
+  text-align: center;
+  font-size: 3rem;
+}
+section h2{
+    font-size: 3rem;
+    position: relative;
+    text-align: center;
+}
+section h2::after{
+  content: "";
+  width: 205px;
+  height: 10px;
+  background-color: rgb(211, 15, 97);
+  position: absolute;
+  bottom: -6px;
+  left: 190px;
+   border-radius: 5px;
+   
+}
+
+.singgle-tour{
+   width: 550px;
+   padding: 20px 20px;
+   margin-bottom: 30px;
+   background-color: #fff;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); ;
+}
+.singgle-tour img {
+  width: 100%;
+  object-fit: cover;
+}
+.tour-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tour-info h4 {
+   letter-spacing: 2px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.tour-info .tour-price{
+  background-color: aquamarine;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: blue;
+}
+footer button {
+  background-color: #fff;
+  border: none;
+  font-size: 15px;
+  color: blue;
+  cursor: pointer;
+}
+.singgle-tour .interested{
+  padding: 10px 30px;
+  border : 1px solid red;
+  background: #fff;
+  border-radius: 10px;
+  color: 	#ff0000;
+  display: block;
+   margin: auto;
+   cursor: pointer;
+}
+.singgle-tour .interested:hover{
+  background: 	salmon;
+}
+.title h2 {
+  font-size: 3rem;
+}
+.title button {
+  padding: 10px 30px;
+  display: block;
+  margin: auto;
+  background: #ff0000;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 20px;
+}
